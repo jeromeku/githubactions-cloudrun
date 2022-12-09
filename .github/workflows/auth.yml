@@ -45,3 +45,5 @@ jobs:
     - name: 'Use gcloud CLI'
       run: 'gcloud info'
 
+    - name: List gcloud config
+      run: 'gcloud config list' 
